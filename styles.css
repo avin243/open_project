@@ -1,1 +1,94 @@
-
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #e3edf7;
+  }
+  h1 {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 200px 0 200px;
+    color: #555;
+    text-align: center;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+  }
+  a {
+    display: flex;
+    background: #e3edf7;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+      -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+  }
+  a i {
+    font-size: 35px;
+    color: #5e5e5e;
+    transition: transform 0.5s;
+  }
+  a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+      inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+      -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+      0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translateY(2px);
+  }
+  a:hover i {
+    transform: scale(0.9);
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  button{
+    display: flex;
+    background: #e3edf7;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+  }
+  button:hover{
+    transform: scale(0.9);
+    transition: 0.7s ease-in-out;
+  }
+  .dark-mode{
+    background-color: #3a3b3c;
+    color: white;
+  }
+  .dark-mode a i{
+    color: white;
+  }
+  .dark-mode h1 {
+    color: white;
+  }
+  .dark-mode button{
+    background: #3a3b3c;
+    color: white;
+    border-color: whitesmoke;
+  }
+  .dark-mode a{
+    background: #3a3b3c;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+      -6px -6px 10px -1px rgb(69,79,89);
+  }
